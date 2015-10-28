@@ -15,6 +15,11 @@ _Enregistrer
 2)Aller dans un de vos 'repository'
 _En bas à droite là où se trouve le lien de votre url habituelle, cliquez sur « SSH », copiez le lien.
 _Faire un git commit -m ''…''
-_Faire un git remote rm origin
+_Faire un git remote rm origin 
 _Faire un git remote add origin + le lien que vous venez de copier
 _faire un git push
+
+/!\ 
+_N'oubliez pas de rentrer l'url correspondant à votre clé ssh, sinon Git continuera à demander l'identifiant+mot de passe
+_Vous avez généré une clé publique, et une privée: cette dernière est à garder pour vous.
+_Pour en savoir plus: http://www.git-attitude.fr/2010/09/13/comprendre-et-maitriser-les-cles-ssh/
