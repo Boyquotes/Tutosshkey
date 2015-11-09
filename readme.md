@@ -1,15 +1,20 @@
-﻿Tuto clé SSH
+#﻿Tutoriel pour créer sa clé SSH et la lier à son compte
 
-Avantages : _Plus d'identifiant et de mot de passe à rentrer sur git
-                     _Sécurité augmentée
+Avantages : 
+- Plus d'identifiant et de mot de passe à rentrer sur git
+- Sécurité augmentée
 
 1) Sur le terminal (ctrl+alt+t) :
-_Taper :
+Taper :
 ```
 ssh-keygen
 ```
-_(Optionnel : rentrer une passphrase (ex : un ecureuil mange une glace) l'absence de passphrase enlève un peu de securité car si quelqu'un vous mets la main sur votre clef privée il pourra alors s'en servir))
-_Taper: cat ~/.ssh/id_rsa.pub
+(Optionnel : rentrer une passphrase (ex : un ecureuil mange une glace) l'absence de passphrase enlève un peu de securité car si quelqu'un vous mets la main sur votre clef privée il pourra alors s'en servir))
+
+Taper:
+``` bash
+cat ~/.ssh/id_rsa.pub
+```
 
 _Aller sur github / profil /ssh keys
 _Cliquer sur « add ssh key »
