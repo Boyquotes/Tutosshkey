@@ -9,7 +9,7 @@ Taper :
 ```
 ssh-keygen
 ```
-(Optionnel : rentrer une passphrase (ex : un ecureuil mange une glace) l'absence de passphrase enlève un peu de securité car si quelqu'un vous mets la main sur votre clef privée il pourra alors s'en servir)
+(Optionnel : rentrer une passphrase (ex : un ecureuil mange une glace) l'absence de passphrase enlève un peu de securité car si quelqu'un vous mets la main sur votre clef privée il pourra alors s'en servir)  
 Conseil : ne pas en mettre pour gagner du temps.
 
 
