@@ -26,10 +26,11 @@ Copier la chaîne qui s'affiche en prenant garde de ne pas prendre d'espace à l
 - Enregistrer
 
 Lors de la création d'un nouveau dépots utiliser l'adresse SSH ( git.... ) et pas celle commençant par http://...
+exemple du format de l'url origin de ce dépot : git@github.com:Boyquotes/Tutosshkey.git  
 
-Pour vos dépôts existant, aller dans un de vos 'repository' sur Github auquel vous souhaitez vous connecter maintenant grâce à votre clef
+Pour vos dépôts déjà existant en local, aller dans un de vos 'repository' sur Github auquel vous souhaitez vous connecter maintenant grâce à votre clef
 - En bas à droite là où se trouve le lien de votre url habituelle, cliquez sur « SSH », copiez le lien.
-Il faut alors retirer le dépot distant configuré en http
+Il faut alors retirer le dépot distant configuré avec la méthode http
 - Faire un 
 ```
 git remote rm origin 
@@ -43,4 +44,8 @@ git remote add origin + le lien que vous venez de copier
 /!\ 
 - N'oubliez pas de rentrer l'url correspondant à votre clé ssh, sinon Git continuera à demander l'identifiant+mot de passe
 - Vous avez généré une clé publique, et une privée: cette dernière est à garder pour vous.
+- Vous pouvez voir l'URL qui est configuré comme url origin distante :
+```
+git config --list
+```
 - Pour en savoir plus: http://www.git-attitude.fr/2010/09/13/comprendre-et-maitriser-les-cles-ssh/
