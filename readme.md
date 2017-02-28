@@ -9,7 +9,9 @@ Taper :
 ```
 ssh-keygen
 ```
-(Optionnel : rentrer une passphrase (ex : un ecureuil mange une glace) l'absence de passphrase enlève un peu de securité car si quelqu'un vous mets la main sur votre clef privée il pourra alors s'en servir))
+(Optionnel : rentrer une passphrase (ex : un ecureuil mange une glace) l'absence de passphrase enlève un peu de securité car si quelqu'un vous mets la main sur votre clef privée il pourra alors s'en servir)
+Conseil : ne pas en mettre pour gagner du temps.
+
 
 Taper:
 ``` bash
@@ -18,8 +20,8 @@ cat ~/.ssh/id_rsa.pub
 Copier la chaîne qui s'affiche en prenant garde de ne pas prendre d'espace à la fin ou au début
 
 2)
-- Aller sur github / profil /ssh keys
-- Cliquer sur « add ssh key »
+- [Aller sur github](https://github.com/settings/keys)
+- Cliquer sur « New ssh key »
 - Rentrer la clé (publique!)
 - Enregistrer
 
