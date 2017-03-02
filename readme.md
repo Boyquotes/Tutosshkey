@@ -29,6 +29,8 @@ Lors de la création d'un **nouveau dépot** ou d'un **clone** utiliser l'adress
 exemple du format de l'url origin de ce dépot : git@github.com:Boyquotes/Tutosshkey.git  
 - Au prochain 'git push' vous n'aurez plus à saisir votre login/mot de passe
 
+------
+
 Pour vos dépôts déjà existant en local et cloner avec l'url en http (vous pouvez vérirfier en utilisant la commande git config --list ), ils ont donc leur remote configuré en http. Pour changer la configuration, aller dans un de vos 'repository' sur Github auquel vous souhaitez vous connecter maintenant grâce à votre clef et donc en utilisant l'url git@
 - Sur la page du dépot à droite, en dessous du bouton "Clone or download" là où se trouve le lien de votre url habituelle, cliquez sur « SSH », copiez le lien.
 Il faut alors donc retirer le dépot distant configuré avec la méthode http
